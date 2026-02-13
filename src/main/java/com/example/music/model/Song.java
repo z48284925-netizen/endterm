@@ -1,5 +1,6 @@
 package com.example.music.model;
-
+import jakarta.persistence.Entity;
+@Entity
 public class Song extends MusicContent {
     private String album;
 
